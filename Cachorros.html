@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo dos Cachorros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .hero {
+            background: url('cachorro-hero.jpg') no-repeat center center/cover;
+            color: #fff;
+            padding: 60px 0;
+            text-align: center;
+        }
+        .hero h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        section {
+            padding: 20px 0;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+        .card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .card img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mundo dos Cachorros</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#cuidados">Cuidados</a></li>
+                <li><a href="#racas">Raças</a></li>
+                <li><a href="#adocao">Adoção</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero" id="home">
+        <h1>Bem-vindo ao Mundo dos Cachorros!</h1>
+        <p>Descubra tudo sobre os nossos amigos de quatro patas. Dicas, cuidados, raças, e muito mais!</p>
+    </div>
+
+    <div class="container">
+        <section id="cuidados">
+            <div class="section-title">
+                <h2>Dicas de Cuidados</h2>
+            </div>
+            <div class="card">
+                <h3>Alimentação</h3>
+                <img src="alimentacao.jpg" alt="Alimentação">
+                <p>Dicas sobre dietas balanceadas e alimentos seguros para cachorros.</p>
+            </div>
+            <div class="card">
+                <h3>Saúde</h3>
+                <img src="saude.jpg" alt="Saúde">
+                <p>Informações sobre vacinas, vermifugação e cuidados veterinários.</p>
+            </div>
+            <div class="card">
+                <h3>Higiene</h3>
+                <img src="higiene.jpg" alt="Higiene">
+                <p>Como escovar os dentes do cachorro, banhos e cuidados com o pelo.</p>
+            </div>
+            <div class="card">
+                <h3>Exercício</h3>
+                <img src="exercicio.jpg" alt="Exercício">
+                <p>A importância de exercícios diários e brincadeiras.</p>
+            </div>
+        </section>
+
+        <section id="racas">
+            <div class="section-title">
+                <h2>Raças de Cachorros</h2>
+            </div>
+            <div class="card">
+                <h3>Pequenas</h3>
+                <img src="pequenas.jpg" alt="Raças Pequenas">
+                <p>Poodle, Chihuahua, Pomeranian.</p>
+            </div>
+            <div class="card">
+                <h3>Médias</h3>
+                <img src="medias.jpg" alt="Raças Médias">
+                <p>Beagle, Bulldog, Cocker Spaniel.</p>
+            </div>
+            <div class="card">
+                <h3>Grandes</h3>
+                <img src="grandes.jpg" alt="Raças Grandes">
+                <p>Labrador, Pastores Alemão, Golden Retriever.</p>
+            </div>
+        </section>
+
+        <section id="adocao">
+            <div class="section-title">
+                <h2>Adote um Cachorro</h2>
+            </div>
+            <div class="card">
+                <h3>Por que Adotar?</h3>
+                <img src="adocao.jpg" alt="Por que Adotar">
+                <p>Benefícios da adoção.</p>
+            </div>
+            <div class="card">
+                <h3>Como Adotar</h3>
+                <img src="como-adotar.jpg" alt="Como Adotar">
+                <p>Processo de adoção e o que você precisa saber.</p>
+            </div>
+            <div class="card">
+                <h3>Listagem de Abrigos</h3>
+                <img src="abrigos.jpg" alt="Abrigos">
+                <p>Links para abrigos e organizações locais.</p>
+            </div>
+        </section>
+
+        <section id="blog">
+            <div class="section-title">
+                <h2>Blog</h2>
+            </div>
+            <div class="card">
+                <h3>Como Treinar Seu Cachorro em Casa</h3>
+                <p>Leia dicas sobre treinamento de cachorros em casa.</p>
+            </div>
+            <div class="card">
+                <h3>Histórias Inspiradoras de Adoção</h3>
+                <p>Leia histórias emocionantes sobre adoção de cachorros.</p>
+            </div>
+            <div class="card">
+                <h3>Os Benefícios da Companhia Canina</h3>
+                <p>Descubra como ter um cachorro pode melhorar sua vida.</p>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="section-title">
+                <h2>Contato</h2>
+            </div>
+            <form action="enviar-email.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Mundo dos Cachorros. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
